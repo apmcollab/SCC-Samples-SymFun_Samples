@@ -26,7 +26,9 @@ The files that are not \*.h or \*.cpp in SCC/SymFun are files used for working w
 
 If you are willing to recompile all of the files in SCC/SymFun with each build of your program, you can just add all of the   \*.h and \*.cpp files in SCC/SymFun to a Visual Studio solution that uses the SCC::SymFun class. In addition to specifying these files, you will need to specify in your solution settings an additional include path that is the location of the directory SCC/SymFun (this directory contains the required \*.h files).  
 
-Alternately, one can create a library (SymFunLib) in which all of the *.cpp files in SCC/SymFun are compiled. Once this library has been created, to use SCC::SymFun instances, one will need to specify an additional include path that is the location of the directory SCC/SymFun as well as the library name and path to the library that you've created.  
+Alternately, one can create a library (SymFunLib) in which all of the *.cpp files in SCC/SymFun are compiled. Once this library has been created, to use SCC::SymFun instances, one will need to specify an additional include path that is the location of the directory SCC/SymFun as well as the library name and path to the library that you've created. 
+
+To remove the warnings about the use of strcpy() when compiling, add to your projects pre-preprocessor definitions _CRT_SECURE_NO_WARNINGS 
 
 
 ### Prerequisites
