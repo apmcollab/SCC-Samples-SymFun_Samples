@@ -37,6 +37,10 @@
 #############################################################################
 */
 
+#ifdef _MSC_VER                   // Add so Visual-Studio doesn't
+#define _CRT_SECURE_NO_DEPRECATE   // complain about use of strcpy.
+#endif
+
 #include "SymFun.h"
 #include "RealOperatorLib.h"
 
