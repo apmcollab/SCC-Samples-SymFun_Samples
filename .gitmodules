@@ -1,0 +1,6 @@
+[submodule "SCC/SymFun"]
+	path = SCC/SymFun
+	url =  https://github.com/apmcollab/SCC-SymFun.git
+[submodule "SCC/MakeScripts"]
+	path = SCC/MakeScripts
+	url = https://github.com/apmcollab/SCC-MakeScripts.git

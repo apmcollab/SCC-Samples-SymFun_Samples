@@ -1,0 +1,8 @@
+*.exe
+_release*
+_debug*
+*.a
+.settings/language.settings.xml
+
+
+

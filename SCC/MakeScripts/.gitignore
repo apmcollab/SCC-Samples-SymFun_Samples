@@ -1,0 +1,9 @@
+.project
+_release*
+_debug*
+*.exe
+push*
+BaseCommonConfig.mk
+.hg
+.hgignore
+.hgsub
