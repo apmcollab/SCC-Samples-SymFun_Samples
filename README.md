@@ -37,7 +37,7 @@ c++11
 
 ### Versioning
 
-Release : 19.01.14
+Release : 19.12.16
 
 ### Authors
 
